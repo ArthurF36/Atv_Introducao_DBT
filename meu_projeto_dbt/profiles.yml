@@ -1,0 +1,6 @@
+meu_projeto_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../bd/dev.duckdb
