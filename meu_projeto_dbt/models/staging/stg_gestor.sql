@@ -27,7 +27,7 @@ with gestor_2019 as (
     where "TP_DEPENDENCIA" != 4
 ),
 
-gestor_2020 as (
+MICRODADOS_CADASTRO_CURSOS_2017 as (
     select
         cast("ID_GESTOR" as text) as id_gestor,
         "CO_ENTIDADE" as co_escola,
